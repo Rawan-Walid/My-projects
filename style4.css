@@ -1,0 +1,161 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #333;
+}
+    
+            .container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 160px 800px 200px ;
+    padding: 5px;
+    box-sizing: border-box;
+            }
+ul{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+    color: #7a3a06;
+}
+*{
+    box-sizing: border-box;
+}
+.header{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    vertical-align: top;
+    justify-content: space-evenly;
+    color: #7a3a06;
+    font-size: 40px;
+   
+}
+.logo{
+    border-radius: 50%;
+}
+.back-img{
+    position: relative;
+    z-index: 1;
+}
+.on1-img{
+  position: absolute;
+  top: 10px;
+  right: 200px;
+  z-index: 2;
+}
+.on2-img{
+    position: absolute;
+  top: 10px;
+  right: 260px;
+  z-index: 2;
+}
+.on3-img{
+    position: absolute;
+  top: 70px;
+  right: 230px;
+  z-index: 2;
+}
+
+.content{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-image: url("images.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 40px;
+    color: #7a3a06;
+
+}
+.footer{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    color: #7a3a06;
+}
+.footer1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+.name1{
+    position: relative;
+}
+.user-name{
+    position: absolute;
+    left: 1px;
+    top: 10px;
+}
+.email1{
+    position: relative;
+}
+.email{
+    position: absolute;
+    left: 1px;
+    top: 10px;
+}
+.message1{
+    position: relative;
+
+}
+.message{
+    position: absolute;
+    left: 1px;
+    top: 10px;
+}
+.btn1{
+    position: relative;
+}
+.contact-btn{
+    position: absolute;
+    left: 1px;
+    top: 10px;
+}
+.footer2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    font-size: 50px;
+}
+.fa {
+    padding: 60px 60px 60p 60px;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    text-decoration:none;
+    margin: 5px 2px ; 
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.5;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;}
+    .fa-instagram {
+        background: #d84dae;
+        color: white;
+      }
+.footer3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 50px;
+}
+.logo2{
+    border-radius: 50%;
+    
+}
+
